@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.registr-form {
+  padding-top: 100px; }
+  .registr-form-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center; }
+    .registr-form-container form {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column; }
+      .registr-form-container form p {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40%; }
+      .registr-form-container form .checkbtn {
+        flex-direction: row; }
+        .registr-form-container form .checkbtn input {
+          width: 20px;
+          height: 20px; }
+        .registr-form-container form .checkbtn a {
+          text-decoration: none;
+          color: #4f7ed0; }
+      .registr-form-container form ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; }
+        .registr-form-container form ul li {
+          color: #df1d1d; }
+      .registr-form-container form label {
+        color: #767474;
+        font-size: 15px;
+        margin: 5px; }
+      .registr-form-container form select {
+        padding: 15px;
+        margin: 5px 0 12px 0;
+        width: 107%;
+        border-radius: 5px;
+        border: 2px solid #d0cbcb; }
+        .registr-form-container form select:focus {
+          outline: none;
+          border: 2px solid #3bd2e9; }
+      .registr-form-container form input {
+        padding: 15px;
+        margin: 5px 0 12px 0;
+        display: inline-block;
+        border: 2px solid #d0cbcb;
+        border-radius: 5px;
+        width: 100%; }
+        .registr-form-container form input:focus {
+          outline: none;
+          border: 2px solid #3bd2e9; }
+      .registr-form-container form .registerbtn {
+        background-color: #4c32e0;
+        font-size: 16px;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        opacity: 0.9;
+        margin: 0 auto;
+        width: 107%; }
+      .registr-form-container form .disabledButton {
+        background-color: #a3adb8; }
+      .registr-form-container form .registerbtn:hover {
+        opacity: 1; }
+    .registr-form-container hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+      max-width: 60%; }
+  .registr-form-headr {
+    max-width: 460px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30px; }
+    .registr-form-headr .title {
+      font-weight: 600;
+      font-size: 44px;
+      margin-bottom: 10px; }
+    .registr-form-headr .subtitle a {
+      text-decoration: none;
+      color: #4f7ed0; }
